@@ -19,6 +19,13 @@ namespace tpmodul4_1302223027
             //menampilkan kode pos dari Maleer
             Console.WriteLine("kode pos dari " + KodePos.Kelurahan.Maleer + " adalah " + KodePos.getKodePos(KodePos.Kelurahan.Maleer));
 
+
+
+           
+
+            DoorMachine doorMachine = new DoorMachine();
+            doorMachine.RunState();
+
         }
     }
 }
